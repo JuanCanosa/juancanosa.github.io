@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+        }
+        
+        h1, h3{
+            margin: 0;
+        }
+
+        p{
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .container{
+            flex-grow: 1;
+            margin: 0 auto;
+            position: relative;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            max-width: 1344px;
+        }
+
+        h4{
+            font-size: 1.25em; 
+        }
+
+        .has-text-centered{
+            text-align: center!important;
+        }
+        .image{ 
+            display: block;
+            position: relative;
+        }
+        .image.is-128x128{
+            height: 128px;
+            width: 128px;
+        }
+        .photo {
+            margin: 0 auto;
+        }
+        .image img.is-rounded {
+            border-radius: 9999px;
+        }
+        .mt-3{
+            margin-top: 3px;
+        }
+        .mb-1em {
+            margin-bottom: 1em;
+        }
+        .subtitle {
+            font-size: 18px;
+        }
+        .section{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        
+        <div class="has-text-centered is-size-5" >
+            <figure class="image is-128x128 photo">
+                <img width="120" height="120" class="is-rounded" data-main-image="" style="object-fit: cover; opacity: 1;" decoding="async" loading="lazy" src="juanito-work-square.avif"  alt="Juanito">    
+            </figure>
+            <h1 class="title has-text-centered mt-3 ">
+                Juan Canosa
+            </h1>
+            <h2 class="subtitle has-text-centered mt-3 ">
+                Front End Developer
+            </h2>
+        </div>    
+        <section class="section has-text-centered">
+            <h4 class="has-text-centered ">Hello, I'm Juan Canosa  <span role="img" aria-label="Imbad"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(chrome-extension://gaoflciahikhligngeccdecgfjngejlh/emoji-data/sheet_apple_32.png);background-position:59.9882491186839% 85.95769682726204%;background-size:5418.75% 5418.75%" data-codepoints="1f60e"></span></span></span></h4>
+
+            <p class="mb-1em">              
+I'm a Front-end Enginer, I work with Front-end development creating web pages. <br>I like everything about technology and I like to study front end languages like, JavaScript, React... I'ts help me to be a good professional
+            </p>    
+            <p >
+I develop more projects with JavaScript using React and Node
+            </p>
+        </section>            
+        
+    
+
+
+    </main>
+</body>
+</html>
